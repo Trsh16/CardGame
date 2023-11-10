@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045B90C12AFDC17400FD48CF /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 045B90C02AFDC17400FD48CF /* WOT-Scryfall.json */; };
-		045B90C32AFDCB8400FD48CF /* Trial-JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 045B90C22AFDCB8400FD48CF /* Trial-JSON.json */; };
 		045B90C72AFDCCEF00FD48CF /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B90C62AFDCCEF00FD48CF /* users.swift */; };
 		045B90C92AFDD07B00FD48CF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B90C82AFDD07B00FD48CF /* Card.swift */; };
+		045B90CB2AFDDD2600FD48CF /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 045B90CA2AFDDD2600FD48CF /* WOT-Scryfall.json */; };
 		046825252AFDBC6C00F81437 /* TugasCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046825242AFDBC6C00F81437 /* TugasCardApp.swift */; };
 		046825272AFDBC6C00F81437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046825262AFDBC6C00F81437 /* ContentView.swift */; };
 		046825292AFDBC6F00F81437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046825282AFDBC6F00F81437 /* Assets.xcassets */; };
@@ -38,10 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045B90C02AFDC17400FD48CF /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "../../../WOT-Scryfall.json"; sourceTree = "<group>"; };
-		045B90C22AFDCB8400FD48CF /* Trial-JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Trial-JSON.json"; sourceTree = "<group>"; };
 		045B90C62AFDCCEF00FD48CF /* users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
 		045B90C82AFDD07B00FD48CF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		045B90CA2AFDDD2600FD48CF /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "Resource/WOT-Scryfall.json"; sourceTree = SOURCE_ROOT; };
 		046825212AFDBC6C00F81437 /* TugasCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046825242AFDBC6C00F81437 /* TugasCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasCardApp.swift; sourceTree = "<group>"; };
 		046825262AFDBC6C00F81437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,8 +80,7 @@
 		045B90BF2AFDC0EC00FD48CF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				045B90C22AFDCB8400FD48CF /* Trial-JSON.json */,
-				045B90C02AFDC17400FD48CF /* WOT-Scryfall.json */,
+				045B90CA2AFDDD2600FD48CF /* WOT-Scryfall.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -251,10 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045B90CB2AFDDD2600FD48CF /* WOT-Scryfall.json in Resources */,
 				0468252C2AFDBC6F00F81437 /* Preview Assets.xcassets in Resources */,
 				046825292AFDBC6F00F81437 /* Assets.xcassets in Resources */,
-				045B90C32AFDCB8400FD48CF /* Trial-JSON.json in Resources */,
-				045B90C12AFDC17400FD48CF /* WOT-Scryfall.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
